@@ -1,0 +1,26 @@
+{
+  "name": "swagen-typescript-language",
+  "version": "0.0.1",
+  "description": "Typescript language helper for Swagen generators",
+  "main": "index.js",
+  "scripts": {
+    "bump": "npm version patch --no-git-tag-version",
+    "bumppub": "npm run bump && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-template/swagen-typescript-language.git"
+  },
+  "keywords": [
+    "swagen"
+  ],
+  "author": "Angular Template",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/angular-template/swagen-typescript-language/issues"
+  },
+  "homepage": "https://github.com/angular-template/swagen-typescript-language#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  }
+}
