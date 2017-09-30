@@ -64,8 +64,8 @@ export interface Operation {
     }[];
 }
 export interface ReturnTypeOptions {
-    modelsNs: string;
-    voidType: 'void' | 'any' | 'string' | 'Object' | 'object' | '{}';
+    modelsNs?: string;
+    voidType?: 'void' | 'any' | 'string' | 'Object' | 'object' | '{}';
 }
 export interface MethodSignatureOptions extends ReturnTypeOptions {
     returnTypeTransformer: (returnType: string) => string;
